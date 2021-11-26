@@ -66,7 +66,7 @@ class DrawingCanvas extends JPanel {
   private static final int PREF_W = 800;
   private static final int PREF_H = 600;
   public static final Color LINE_COLOR = Color.PINK;
-  public static final Stroke IMG_STROKE = new BasicStroke(10 f);
+  public static final Stroke IMG_STROKE = new BasicStroke(10f);
   private Color lineColor = LINE_COLOR;
   private BufferedImage image;
 
